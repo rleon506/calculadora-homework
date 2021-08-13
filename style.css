@@ -1,0 +1,38 @@
+#pantalla{
+  padding: 10px;
+  border: double black;
+  width: 500px;
+}
+
+#titulo{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+div input{
+  margin: 10px 10px;
+  height: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#botones {
+  padding: 10px;
+  position: relative;
+  left: 90px;
+}
+
+.boton{
+  width: 60px;
+  height: 50px;
+  color: black;
+  background-color:lightgray;
+}
+
+#textoresultado{
+  font-size: 20px;
+  font-family: Arial;
+  font-weight: bold;
+  color: blue;
+}

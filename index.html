@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="pantalla">
+    <p id="titulo">CALCULADORA</p>
+    <label>NÚMERO UNO: </label><input id="numerouno"type="text"/>
+    <label>NÚMERO DOS: </label><input id="numerodos"type="text"/>
+    <div id="resultado">
+      <p id="textoresultado"></p>
+    </div>    
+  </div>
+
+  <div id="botones">
+    <button id="suma" class="boton" value="+" onclick="operaciones('+')">+</button>
+    <button id="resta" class="boton" value="-" onclick="operaciones('-')">-</button>
+    <button id="multiplicacion" class="boton"  value="*" onclick="operaciones('*')">*</button>
+    <button id="division" class="boton" value="/" onclick="operaciones('/')">/</button>
+    <button id="limpiar" class="boton" value="limpiar" onclick="operaciones('limpiar')">Limpiar</button>
+  </div>
+
+
+</body>
+</html>
